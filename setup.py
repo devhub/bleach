@@ -13,7 +13,7 @@ setup(
     include_package_data=True,
     package_data = { '': ['README.rst'] },
     zip_safe=False,
-    install_requires=['html5lib'],
+    install_requires=['html5lib==0.9.0'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
